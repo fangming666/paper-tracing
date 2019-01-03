@@ -1,0 +1,24 @@
+.num-list{
+  li{
+    width: 10.7vw;
+    height: 10.7vw;
+    margin-right: 4.7vw;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    font-size: 17px;
+    color: #3A3A3A;
+    background: #FFFFFF;
+    border: 1px solid #FFC32D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    &:nth-child(5n){
+      margin-right: 0;
+    }
+    &:active{
+      background: #FFC32D;
+      color:white;
+    }
+  }
+}

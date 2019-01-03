@@ -1,0 +1,17 @@
+.status-modal {
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  background-color: rgba(17, 17, 17, .7);
+  left: calc(50vw - 60px);
+  top: calc(50vh - 60px);
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 30px;
+  p{
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-top: 16px;
+  }
+}

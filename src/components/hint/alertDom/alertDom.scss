@@ -1,0 +1,12 @@
+.alert-warp {
+  position: fixed;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, .56);
+  height: 39px;
+  line-height: 39px;
+  z-index: 11;
+  font-size: 15px;
+  color: #FFFFFF;
+  top: calc(50vh - 20px);
+  padding: 0 10px;
+}

@@ -1,0 +1,30 @@
+.loadingDom {
+  z-index: 100;
+  opacity: 1;
+  transition: opacity 200ms ease-in;
+  display: none;
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  background-color: rgba(17,17,17,.7);
+  position: fixed;
+  left: 50vw;
+  top:50vh;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  i{
+    font-size: 27px;
+    color: #FFFFFF;
+    margin: 36px 0 22px 0;
+  }
+  p{
+    font-size: 13px;
+    color: #FFFFFF;
+  }
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+

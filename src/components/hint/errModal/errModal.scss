@@ -1,0 +1,45 @@
+.err-modal-warp {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  top:0
+}
+
+.err-modal {
+  box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, .98);
+  width: 294px;
+  height: 150px;
+  overflow: hidden;
+  p {
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    padding: 36px 0 45px 0;
+    border-bottom:1px solid #EBEBEB;
+  }
+  div{
+    display: flex;
+    height: 44px;
+    span{
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15.02px;
+      color: rgba(0,0,0,0.54);
+      &:last-child{
+        color: #1FBDD0;
+        border-left:1px solid #EBEBEB;
+      }
+    }
+  };
+}
